@@ -69,7 +69,7 @@ body {
     text-transform: uppercase; }
   #mainNav .navbar-brand {
     color: #C0471C;
-    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #C0471C; }
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -117,12 +117,14 @@ header.masthead {
     padding-top: 150px;
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
+      text-shadow: black 0px 0px 1px;
       font-size: 22px;
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
+      text-shadow: black 0px 0px 1px;
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
@@ -470,7 +472,10 @@ section#contact {
 
 footer {
   padding: 25px 0;
-  text-align: center; }
+  text-align: center; 
+  background-color: black;
+  color: #eeeeee;
+}
   footer span.copyright {
     font-size: 90%;
     line-height: 40px;
