@@ -1,0 +1,108 @@
+
+#deliverable .deliverable-item {
+    right: 0;
+    margin: 0 0 15px; }
+    #deliverable .deliverable-item .deliverable-link {
+      position: relative;
+      display: block;
+      max-width: 400px;
+      margin: 0 auto;
+      cursor: pointer; }
+      #deliverable .deliverable-item .deliverable-link .deliverable-hover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        transition: all ease 0.5s;
+        opacity: 0;
+        background: #C0471C }
+        #deliverable .deliverable-item .deliverable-link .deliverable-hover:hover {
+          opacity: 1; }
+        #deliverable .deliverable-item .deliverable-link .deliverable-hover .deliverable-hover-content {
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          width: 100%;
+          height: 20px;
+          margin-top: -12px;
+          text-align: center;
+          color: white; }
+          #deliverable .deliverable-item .deliverable-link .deliverable-hover .deliverable-hover-content i {
+            margin-top: -12px; }
+          #deliverable .deliverable-item .deliverable-link .deliverable-hover .deliverable-hover-content h3,
+          #deliverable .deliverable-item .deliverable-link .deliverable-hover .deliverable-hover-content h4 {
+            margin: 0; }
+    #deliverable .deliverable-item .deliverable-caption {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 25px;
+      text-align: center;
+      background-color: white; }
+      #deliverable .deliverable-item .deliverable-caption h4 {
+        margin: 0;
+        text-transform: none; }
+      #deliverable .deliverable-item .deliverable-caption p {
+        font-size: 16px;
+        font-style: italic;
+        margin: 0;
+        font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  
+  #deliverable * {
+    z-index: 2; }
+  
+  #deliverable .deliverable-item {
+    right: 0;
+    margin: 0 0 15px; }
+    #deliverable .deliverable-item .deliverable-link {
+      position: relative;
+      display: block;
+      max-width: 400px;
+      margin: 0 auto;
+      cursor: pointer; }
+      #deliverable .deliverable-item .deliverable-link .deliverable-hover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        transition: all ease 0.5s;
+        opacity: 0;
+        background: #C0471C }
+        #deliverable .deliverable-item .deliverable-link .deliverable-hover:hover {
+          opacity: 1; }
+        #deliverable .deliverable-item .deliverable-link .deliverable-hover .deliverable-hover-content {
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          width: 100%;
+          height: 20px;
+          margin-top: -12px;
+          text-align: center;
+          color: white; }
+          #deliverable .deliverable-item .deliverable-link .deliverable-hover .deliverable-hover-content i {
+            margin-top: -12px; }
+          #deliverable .deliverable-item .deliverable-link .deliverable-hover .deliverable-hover-content h3,
+          #deliverable .deliverable-item .deliverable-link .deliverable-hover .deliverable-hover-content h4 {
+            margin: 0; }
+    #deliverable .deliverable-item .deliverable-caption {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 25px;
+      text-align: center;
+      background-color: white; }
+      #deliverable .deliverable-item .deliverable-caption h4 {
+        margin: 0;
+        text-transform: none; }
+      #deliverable .deliverable-item .deliverable-caption p {
+        font-size: 16px;
+        font-style: italic;
+        margin: 0;
+        font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  
+  #deliverable * {
+    z-index: 2; }
+  
+  @media (min-width: 767px) {
+    #deliverable .deliverable-item {
+      margin: 0 0 30px; } }
