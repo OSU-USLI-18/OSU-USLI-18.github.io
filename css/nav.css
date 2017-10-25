@@ -65,3 +65,27 @@ footer ul.quicklinks {
     text-transform: none;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
+
+/* Side bar CSS */
+#mySidenav div {
+  position: fixed; /* Position them relative to the browser window */
+  left: -130px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 150px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 1rem; /* Increase font size */
+  color: black; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav div:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+  color: white;
+}
+
+/* The about link: 20px from the top with a green background */
+.sidenav-body {
+  top: 20%;
+  background-color: black;
+}
