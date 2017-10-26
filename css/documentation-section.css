@@ -23,59 +23,9 @@
     display: block;
     max-width: 400px;
     margin: 0 auto;
-    cursor: pointer; }
-    #documentation .documentation-item .documentation-link .documentation-hover {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      -webkit-transition: all ease 0.5s;
-      -moz-transition: all ease 0.5s;
-      transition: all ease 0.5s;
-      opacity: 0;
-      background: #C0471C }
-      #documentation .documentation-item .documentation-link .documentation-hover:hover {
-        opacity: 1; }
-      #documentation .documentation-item .documentation-link .documentation-hover .documentation-hover-content {
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        height: 20px;
-        margin-top: -12px;
-        text-align: center;
-        color: white; }
-        #documentation .documentation-item .documentation-link .documentation-hover .documentation-hover-content i {
-          margin-top: -12px; }
-        #documentation .documentation-item .documentation-link .documentation-hover .documentation-hover-content h3,
-        #documentation .documentation-item .documentation-link .documentation-hover .documentation-hover-content h4 {
-          margin: 0; }
-  #documentation .documentation-item .documentation-caption {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 25px;
-    text-align: center;
-    background-color: white; }
-    #documentation .documentation-item .documentation-caption h4 {
-      margin: 0;
-      text-transform: none; }
-    #documentation .documentation-item .documentation-caption p {
-      font-size: 16px;
-      font-style: italic;
-      margin: 0;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-
-#documentation * {
-  z-index: 2; }
-
-#documentation .documentation-item {
-  right: 0;
-  margin: 0 0 15px; }
-  #documentation .documentation-item .documentation-link {
-    position: relative;
-    display: block;
-    max-width: 400px;
-    margin: 0 auto;
-    cursor: pointer; }
+    cursor: pointer;
+    background-color:white;
+    text-align: center; }
     #documentation .documentation-item .documentation-link .documentation-hover {
       position: absolute;
       width: 100%;
