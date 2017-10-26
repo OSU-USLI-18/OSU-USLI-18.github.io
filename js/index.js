@@ -35,5 +35,5 @@ function changeHeaderBG(){
 //Bad javascript live with it.
 $(document).ready( () => {
     console.log("Kevin was here.");
-    setInterval(changeHeaderBG,20000);//15 secs
+    setInterval(changeHeaderBG,15000);//15 secs
 });
