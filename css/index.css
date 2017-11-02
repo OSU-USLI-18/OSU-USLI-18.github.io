@@ -162,3 +162,7 @@ iframe {
   .btn-xl .badge {
     color: #C0471C;
     background-color: white; }
+
+#aboutUs center>img {
+  width: 60%;
+  margin-bottom: 20px;}
