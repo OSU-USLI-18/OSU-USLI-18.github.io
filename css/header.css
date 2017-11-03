@@ -13,14 +13,14 @@ header.masthead {
       padding-top: 150px;
       padding-bottom: 100px; }
       header.masthead .intro-text .intro-lead-in {
-        text-shadow: black 0px 0px 1px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         font-size: 22px;
         font-style: italic;
         line-height: 22px;
         margin-bottom: 25px;
         font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
       header.masthead .intro-text .intro-heading {
-        text-shadow: black 0px 0px 1px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         font-size: 50px;
         font-weight: 700;
         line-height: 50px;
