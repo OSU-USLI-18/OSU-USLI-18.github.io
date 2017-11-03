@@ -166,3 +166,6 @@ iframe {
 #aboutUs center>img {
   width: 60%;
   margin-bottom: 20px;}
+
+#descTest {
+	text-align: justify; }
