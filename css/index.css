@@ -5,7 +5,8 @@
  */
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: }
 
 p {
   line-height: 1.75; }
@@ -77,8 +78,15 @@ iframe {
   .team-member p {
     margin-top: 0; }
 
+.section-subheading.text-muted {
+  color:#697179 !important;
+}
 .text-primary {
   color: #C0471C !important; }
+
+  .text-muted {
+    color: #687077 !important
+  }
 
 .btn-primary {
   font-weight: 700;
