@@ -84,6 +84,11 @@ footer ul.quicklinks {
   color: white;
 }
 
+#mySidenav div:focus-within {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+  color: white;
+}
+
 /* The about link: 20px from the top with a green background */
 .sidenav-body {
   top: 20%;
