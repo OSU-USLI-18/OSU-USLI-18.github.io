@@ -11,6 +11,20 @@ body {
 p {
   line-height: 1.75; }
 
+/**  Instagram Section **/
+#descTextSocial {
+  text-align: center;
+}
+
+instagramIframe.iframe {
+  padding: 100px !important;
+  display: block;
+  align-content: right;
+}
+iframe {
+  margin: auto !important;
+}
+
 a {
   color: #C0471C; }
   a.active, a:active, a:focus, a:hover {
