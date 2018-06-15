@@ -129,6 +129,13 @@
       margin: 0;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
+    div.team-caption a {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      word-wrap: break-word;
+    }
+
 #team * {
   z-index: 2; }
 
